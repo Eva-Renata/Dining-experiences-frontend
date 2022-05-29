@@ -1,0 +1,15 @@
+.footer {
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 3em;
+    svg {
+        height:2em;
+        width:2em;
+        color: #5fa62d;
+    }
+    p {
+        margin:2vh;
+        font-size: 1.2vw;
+    }
+}

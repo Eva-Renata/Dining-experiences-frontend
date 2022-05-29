@@ -1,0 +1,49 @@
+@import '../../helpers//helpers.module.scss';
+
+.contactsection {
+    width:90%;
+    display: block;
+    margin:auto;
+    h2 {
+    font-size: 3vw;
+    color: #5fa62d;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    text-align: center;
+    }
+    p {
+        color:white;
+        text-align: center;
+    }
+    .videoogform {
+    .video {
+        margin:auto;
+    }
+    form {
+            width: 45vw;
+            display: block;
+            margin: auto;
+            padding: 1em;
+            border: solid 1px $greencolor;
+    
+            input {
+                width: 100%;
+                padding: 1em 0 1em 0;
+                margin: 1em 0 1em 0;
+                text-align: center;
+            }
+    
+            .message {
+                height: 10vh;
+            }
+    }
+    
+    button {
+        @include button;
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+    }
+    }
+    
+}

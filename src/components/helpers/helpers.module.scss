@@ -1,0 +1,14 @@
+$greencolor: #5fa62d;
+
+@mixin button {
+    background-color: $greencolor;
+    padding: 0.5em;
+    margin: 1.5em 0 1em 0;
+    border-radius: 12px;
+    background-color: transparent;
+    border: solid 1px #5fa62d;
+    color:white;
+    &:hover {
+        background-color: #5fa62d;
+    }
+}

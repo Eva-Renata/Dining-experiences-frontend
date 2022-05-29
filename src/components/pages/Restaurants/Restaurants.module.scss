@@ -1,0 +1,50 @@
+@import '../../helpers//helpers.module.scss';
+
+h1 {
+    font-size: 3vw;
+    color: #5fa62d;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+.selectionbutton {
+    text-align: center;
+
+    button {
+        @include button;
+        margin: 0 1em 0 1em;
+    }
+}
+.List {
+    width:90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+.restaurantslist {
+    text-align: center;
+    h3 {
+        color: white;
+        font-size: 2vw;
+    }
+    .picturewrapper {
+        width: 30vw;
+        height: 30vh;
+        img {
+            width: 25vw;
+            height: 30vh;
+            //object-fit: contain;
+            object-fit: cover;
+            display: block;
+            margin:auto;
+        }
+    }
+    p {
+    color: white;
+    }
+    button {
+        @include button;
+    }
+    }
+    
+}

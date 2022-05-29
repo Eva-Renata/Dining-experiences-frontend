@@ -1,0 +1,29 @@
+.aboutsection {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    h2 {
+        font-size: 3vw;
+        color: #5fa62d;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 100;
+        text-align: center;
+    }
+    .text {
+        h3 {
+            color: #5fa62d;
+            font-size: 3vw;
+            font-family: 'Dancing Script', cursive;
+            font-weight: lighter;
+        }
+        color:white;
+    }
+    img {
+        width: 80vw;
+        height: 70vh;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        padding-top: 2em;
+    }
+}
